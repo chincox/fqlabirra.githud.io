@@ -1,0 +1,514 @@
+@font-face {
+    font-family: 'Righthere-rightnow';
+    src: url('../webfonts/Righthere-rightnow.eot?#iefix') format('embedded-opentype'), url('../webfonts/Righthere-rightnow.woff') format('woff'), url('../webfonts/Righthere-rightnow.ttf') format('truetype'), url('../webfonts/Righthere-rightnow.svg#Righthere,rightnow') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-image: url("../images/bg.jpg");
+    background-size: contain;
+}
+
+header {
+    background-color: #ffffff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-family: 'Righthere-rightnow';
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+}
+
+a {
+    color: #ffffff;
+}
+
+#headerHamburguer {
+    height: 120px;
+    background-image: url('../images/hamburguesas.jpg');
+}
+
+.hidd {
+    display: none;
+}
+
+.slide-bg1 {
+    background: url(../images/local.png) no-repeat center;
+    background-size: cover;
+    min-height: 545px;
+    text-align: center;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #482d2e;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #fff;
+    font-family: 'Lato', sans-serif;
+}
+
+.texthead {
+    font-size: 76px;
+    margin-top: 8%;
+    color: #ffffff;
+}
+
+.texthead2 {
+    font-family: 'Lato';
+    font-weight: bold;
+    color: #ffffff;
+}
+
+#masthead {
+    background-image: url(../images/Hamburguesasslide.jpg);
+    background-repeat: repeat-x;
+    animation: slideleft 20000s infinite linear;
+    -webkit-animation: slideleft 20000s infinite linear;
+    background-size: cover;
+    min-height: 300px;
+}
+
+h3.w3ls-title {
+    font-size: 2.2em;
+    color: #ffffff;
+}
+
+.colorye {
+    color: #d89d35;
+}
+
+.lead {
+    font-size: 1.1rem;
+    font-weight: 100;
+    padding-left: 16%;
+    padding-right: 16%;
+    color: #ffffff;
+}
+
+.agileits-services {
+    position: relative;
+    background-color: black;
+    background-image: url(../images/fondo-papel.jpg);
+    background-size: cover;
+}
+
+.circle {
+    background-color: #202020;
+    font-family: 'Lato', sans-serif;
+}
+
+.video {
+    width: 70%;
+    height: 450px;
+    box-shadow: 0px 0px 60px 0px black;
+    background-color: white;
+    padding: 2%;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: -76px;
+}
+
+.imgservice {
+    width: 50%;
+}
+
+.agileits-services-grids p {
+    font-family: 'Lato', sans-serif;
+    color: #242424;
+    padding-left: 16%;
+    padding-right: 16%;
+}
+
+.graybg {
+    background-color: #242424;
+}
+
+.col-sm-8 .lead {
+    padding-left: 0%;
+    padding-right: 40%;
+    color: #242424;
+}
+
+.text1 {
+    background-color: #e8e8e8;
+    color: #242424;
+    padding-top: 10%;
+    padding-left: 4%;
+}
+
+.text1 h3.w3ls-title {
+    color: #242424;
+}
+
+.text2 {
+    background-color: #242424;
+    padding-top: 10%;
+    padding-left: 4%;
+    text-align: right;
+}
+
+.col-sm-8 .lead2 {
+    padding-left: 50%;
+    padding-right: 0%;
+    color: #242424;
+}
+
+.white {
+    color: #ffffff !important;
+}
+
+.bgg {
+    background-color: #242424;
+}
+
+.bgg2 {
+    background-color: #e8e8e8;
+}
+
+.total {
+    width: 100%;
+}
+
+.conbg {
+    background-image: url(../images/contactanos.jpg);
+}
+
+.phone {
+    font-weight: 100;
+    font-family: lato;
+    text-decoration: underline;
+}
+
+.fa-rotate-94 {
+    -webkit-transform: rotate(94deg);
+    -moz-transform: rotate(94deg);
+    -ms-transform: rotate(94deg);
+    -o-transform: rotate(94deg);
+    transform: rotate(94deg)
+}
+
+#contacto {
+    background-color: #f9f9f9;
+}
+
+.registration {
+    background-color: #f9f9f9;
+}
+
+.form-group {
+    background-color: #fff;
+    padding: 2%;
+    border: 1px solid #c2c3c8;
+    border-radius: 7px;
+    font-family: lato;
+    color: #d9a63d;
+    font-weight: 700;
+}
+
+.form-control {
+    border: none;
+    border-bottom: 1px solid #c2c3c8;
+}
+
+.formulario {
+    padding: 1%;
+    background-color: #fff;
+    position: sticky;
+    border-radius: 10px;
+    box-shadow: 0px 0px 60px 0px black;
+    margin-top: -11%;
+    margin-bottom: -11%;
+}
+
+.formtext {
+    color: #2d2d2d;
+    font-size: 28px;
+}
+
+.team-center-w3ls h5 {
+    font-size: 2.5em;
+    color: #2d2d2d;
+    font-weight: bold;
+}
+
+.bg-light {
+    background-color: #deb155 !important;
+    color: #ffffff;
+    font-family: lato;
+}
+
+.hambbg {
+    background-image: url(../images/hambu.png);
+    background-color: #f9f9f9;
+    padding-top: 0%;
+    padding-bottom: 5%;
+    margin-top: -5%;
+    height: 130px;
+}
+
+.imagenfooter {
+    width: 12%;
+    margin-bottom: 5px;
+}
+
+footer {
+    background-color: #252525;
+    font-family: lato;
+}
+
+.navbar-fixed-top {
+    margin-top: 0px;
+}
+
+.navbar-brand {
+    left: calc(42% - 44px);
+    position: absolute;
+    padding: 0;
+    top: -90px;
+}
+
+.logonav {
+    width: 75%;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 10%;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.colladse {
+    background-color: #ffffff;
+}
+
+.colladse2 {
+    background-color: #ffffff;
+    top: 0;
+}
+
+.logonav2 {
+    width: 35%;
+}
+
+.navbar-brand2 {
+    position: absolute;
+    top: -5px;
+    left: calc(42% - 44px);
+    padding: 0;
+}
+
+
+/*Responsive*/
+
+@media only screen and (max-device-width: 1024PX) {
+    .texthead {
+        font-size: 76px;
+        margin-top: 13%;
+        color: #ffffff;
+    }
+    .lead {
+        padding-left: 9%;
+        padding-right: 9%;
+    }
+    .text1 {
+        padding-top: 7%;
+        padding-left: 4%;
+    }
+    .hambbg {
+        padding-bottom: 5%;
+        margin-top: -10%;
+    }
+    .navbar-brand {
+        left: calc(38% - 44px);
+        position: absolute;
+        padding: 0;
+        top: -68px;
+    }
+    .logonav {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-device-width: 991PX) {
+    .logonav {
+        width: 85%;
+        display: none;
+    }
+    .logonav2 {
+        width: 35%;
+        display: none;
+    }
+    .hidd {
+        margin-left: -8%;
+        display: inherit;
+        width: 13%;
+        padding-top: 0%;
+        position: fixed;
+    }
+    .fixed-top {
+        top: 14%;
+    }
+    .colladse2 {
+        top: 0;
+    }
+}
+
+@media only screen and (max-device-width: 768PX) {
+    .slide-bg1 {
+        min-height: 300px;
+    }
+    .texthead {
+        margin-top: 2%;
+    }
+    h3.w3ls-title {
+        font-size: 1.6em;
+    }
+    .lead {
+        font-size: 1rem;
+    }
+    .video {
+        height: 287px;
+    }
+    .imgservice {
+        width: 28%;
+    }
+    .team-center-w3ls h5 {
+        font-size: 2em;
+    }
+    .formtext {
+        font-size: 19px;
+    }
+    .hambbg {
+        padding-bottom: 5%;
+        margin-top: -13%;
+    }
+    .hidd {
+        margin-left: -2%;
+        display: inherit;
+        width: 13%;
+        padding-top: 0%;
+        position: fixed;
+    }
+}
+
+@media only screen and (max-device-width: 605PX) {
+    .texthead {
+        font-size: 45px;
+    }
+    h3,
+    .h3 {
+        font-size: 1rem;
+    }
+    h3.w3ls-title {
+        font-size: 1.4em;
+    }
+    .lead {
+        font-size: 0.9rem;
+    }
+    .about-w3ls .jumbotron {
+        padding-bottom: 3%;
+    }
+    .video {
+        height: 204px;
+    }
+    .imgservice {
+        width: 22%;
+    }
+    .agileits-services-grids p {
+        padding-left: 35%;
+        padding-right: 35%;
+    }
+    .text1 {
+        padding-top: 1%;
+        padding-left: 0%;
+    }
+    .text2 {
+        padding-top: 2%;
+        padding-left: 0%;
+    }
+    .hambbg {
+        margin-top: -17%;
+    }
+    .imagenfooter {
+        width: 22%;
+    }
+}
+
+@media only screen and (max-device-width: 425PX) {
+    .slide-bg1 {
+        min-height: 192px;
+    }
+    .about-w3ls .jumbotron {
+        padding-bottom: 8%;
+    }
+    .video {
+        height: 238px;
+        width: 100%;
+    }
+    .circle {
+        display: none;
+    }
+    .agileits-services-grids p {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    .col-sm-8 .lead {
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    .col-sm-8 .lead2 {
+        padding-left: 0%;
+    }
+    .imagenfooter {
+        width: 30%;
+    }
+    #masthead {
+        min-height: 310px;
+    }
+    .hidd {
+        margin-left: 0%;
+        display: inherit;
+        width: 20%;
+        padding-top: 0%;
+        position: fixed;
+    }
+    .texthead {
+        font-size: 30px;
+    }
+    .texthead2 {
+        font-size: 14px;
+    }
+    .text1 {
+        padding: 7%;
+    }
+    .text2 {
+        padding: 7%;
+    }
+    .team-center-w3ls h5 {
+        font-size: 1.4em;
+    }
+    .formtext {
+        font-size: 14px;
+    }
+    .hambbg {
+        margin-top: -29%;
+    }
+    .imagenfooter {
+        width: 41%;
+    }
+    h3.w3ls-title {
+        font-size: 1.2em;
+    }
+}
